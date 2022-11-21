@@ -1,0 +1,27 @@
+﻿<Window x:Class="SQLProject.Delete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SQLProject"
+        mc:Ignorable="d"
+       Title="Enter name of item to delete" Height="156" Width="481">
+    <Grid Margin="5,5,5,5">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="134"></RowDefinition>
+            <RowDefinition Height="266"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <TextBox AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,106" />
+        </Grid>
+
+        <Grid Margin="109,67,0,45">
+            <Button Background="Pink" Content="Delete Item" Margin="96,-34,3,32" x:Name="DeleteItem" Click="Delete_Click"></Button>
+        </Grid>
+        <Button Background="Pink" Content="Return" Margin="10,32,335,76" x:Name="Return" Click="Return_Click"></Button>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLProject", "SQLProject.csproj", "{3FED7356-7421-4AB9-866A-1F1F7BD178F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED9472C8-46DB-4AB3-9A56-52548729A13D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLProjectTests", "..\SQLProjectTests\SQLProjectTests.csproj", "{ACE6EEB5-2D68-4C90-A716-305DFBA0B30F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FED7356-7421-4AB9-866A-1F1F7BD178F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FED7356-7421-4AB9-866A-1F1F7BD178F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FED7356-7421-4AB9-866A-1F1F7BD178F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FED7356-7421-4AB9-866A-1F1F7BD178F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE6EEB5-2D68-4C90-A716-305DFBA0B30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE6EEB5-2D68-4C90-A716-305DFBA0B30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE6EEB5-2D68-4C90-A716-305DFBA0B30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE6EEB5-2D68-4C90-A716-305DFBA0B30F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2962301F-C7B2-4A0E-B40B-CDA14D69B5AB}
+	EndGlobalSection
+EndGlobal

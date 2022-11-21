@@ -1,0 +1,20 @@
+﻿<Window x:Class="SQLProject.Create"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Enter database name" Height="156" Width="351">
+    <Grid Margin="5,5,5,5">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="134"></RowDefinition>
+            <RowDefinition Height="266"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <TextBox AcceptsReturn="True" TextWrapping="Wrap" Margin="0,0,0,106" x:Name="InputBox"/>
+        </Grid>
+
+        <Button Background="Pink" Content="Create Database" Margin="150,32,0,76" x:Name="CreateDatabase" Click="CreateDatabase_Click"></Button>
+        <Button Background="Pink" Content="Return" Margin="10,32,235,76" x:Name="Return" Click="Return_Click"></Button>
+
+    </Grid>
+</Window>

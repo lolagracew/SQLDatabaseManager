@@ -1,0 +1,36 @@
+﻿<Window x:Class="SQLProject.View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SQLProject"
+        mc:Ignorable="d"
+        Title="Enter database name" Height="638" Width="410">
+    <Grid Margin="5,5,5,151">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="217*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="134"></RowDefinition>
+            <RowDefinition Height="266"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1" Margin="10,271,0,-65" RenderTransformOrigin="0.564,1.984">
+            <TextBox AcceptsReturn="True" TextWrapping="Wrap" Margin="37,246,-35,-140" />
+        </Grid>
+
+        <Grid Margin="17,314,199,-70" Grid.Row="1" Grid.Column="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="104*"/>
+                <ColumnDefinition Width="187*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Button Background="Pink" Content="View" Margin="32,336,10,-96" x:Name="ViewDb" Click="ViewDb_Click" Grid.Row="1" Grid.Column="3"/>
+        <Button Background="Pink" Content="Return" Margin="10,336,32,-96" x:Name="Return" Click="Return_Click" Grid.Row="1"></Button>
+        <ListView Margin="10,10,0,0" Name="DatabasesView" HorizontalAlignment="Left" VerticalAlignment="Top" Width="380" Height="425" Grid.RowSpan="2" Grid.ColumnSpan="4" />
+    </Grid>
+</Window>
